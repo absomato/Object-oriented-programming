@@ -64,7 +64,8 @@ public class MapDemo {
 	Map<Integer, List<Stud>> studByScore =
 	    Stream.of(studs)
 	    .collect(Collectors.groupingBy(Stud::getScore));
-	
+
+
 	/*      studByScore :
 	 *  < Key  :   Value >
 	 *  < 80  :  [["A2",F,2,80]. ["A1",M,4,80]]
